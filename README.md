@@ -18,14 +18,14 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 
 5 . Define a function to plot the decision boundary. 6.Define a function to predict the Regression value.
 ## Program:
-
+```
 /*
 Program to implement the the Logistic Regression Using Gradient Descent.
 Developed by: ROOP SAGAR S L
 RegisterNumber:  212223040175
 */
-
-
+```
+```
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import optimize
@@ -116,7 +116,7 @@ def predict(theta,X):
     prob=sigmoid(np.dot(X_train,theta))
     return (prob>=0.5).astype(int)
 np.mean(predict(res.x,X)==y)
-
+```
 ## Output:
 
 ## Array Value of x :
